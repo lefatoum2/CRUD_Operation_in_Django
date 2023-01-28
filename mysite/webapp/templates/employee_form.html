@@ -1,0 +1,23 @@
+{%extends "index.html"%}
+{% load crispy_forms_tags %}
+{%block content%}
+
+<div class="container p-2 mt-2">
+    <form method="post" enctype="multipart/form-data">
+     {%csrf_token%}
+     {%if form%}
+     <div class="row">
+        {%for field in form%}
+         <div class="col-md-12">{{field|as_crispy_field}}</div>
+        {%endfor%}
+     </div>
+     <ul class="list-inline">
+        <li class="list-inline-item">
+            <button type="submit" class="btn btn-success">Submit</button>
+        </li>
+     </ul>
+     {%endif%}
+    </form>
+</div>
+
+{%endblock%}
