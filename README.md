@@ -297,4 +297,4 @@ home.html
 {%endblock%}
 ````
 
-![img2](./images/doc1.png)
+![img2](images/doc1.png)
