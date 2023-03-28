@@ -1,6 +1,6 @@
 # CRUD_Operation_in_Django
 
-![img1](https://images.ladepeche.fr/api/v1/images/view/62703bb3f6394c635b418365/large/image.jpg?v=2)
+![img1](https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81qC5dU0+uL.jpg)
 
 
 settings.py:
